@@ -60,3 +60,90 @@ padding: 6px 12px 18px 24px
 border: 2px dotted #785;
 padding: 5px;
 }
+
+.borda-esquerda{
+border-left: 3px solid yellowgreen;
+background-color: #111;
+color: #fff;
+padding: 25px;
+}
+
+.borda-inferior{
+    border-bottom: 7px double #548;
+    background-color: #111;
+    color: #fff;
+    padding: 25px;
+    }
+
+.borda-superior{
+border-top: 10px dotted red;
+background-color: aquamarine;
+color: #fff;
+padding: 25px;
+}   
+
+.borda-direita{
+border-right: 5px dashed #f00;
+background-color: #111;
+color: #fff;
+padding: 25px;
+
+}
+
+.borda-total{
+border-left: 5px double rosybrown;
+border-right: 5px solid yellow;
+border-top: 5px dotted salmon;
+border-bottom: 5px dashed orange;
+background-color: #000;
+color:#fff;
+padding: 25px;
+
+}
+
+/* Borda arredondada */
+
+.paragrafo-arredondada{
+border: 5px solid red;
+background-color:  burlywood;
+color: white;
+padding: 20px;
+}
+.paragrafo-arredondada-2{
+background-color:  burlywood;
+color: white;
+padding: 20px;
+border-radius: 20px;  
+}
+
+.margem{
+margin: 10px;
+background-color: darkblue;
+color: yellow;
+}
+
+.margem-no-topo{
+margin-top: 70px;
+background-color: dodgerblue;
+padding: 10px;
+}
+
+.margin-diferente{
+background-color: cornflowerblue;
+margin: 7px 10px 9px 30px;
+}
+
+/* Box model */
+.box.model{
+background-color: aqua;
+color: black;
+width: 200px;
+height:200px;
+padding: 10px 10px 15px 25px;
+border:5px solid violet;
+border-radius: 10px;
+margin: auto;
+}
+
+
+

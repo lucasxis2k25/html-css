@@ -1,0 +1,131 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Underdog&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Underdog&display=swap');
+
+
+/* alinhamento de texto */
+
+.alinhamento-direita{
+  text-align: right;
+}
+
+.centralizar-container{
+    text-align: center;
+    width: 200px;
+    border:4px solid salmon;
+}
+
+.alinhamento-direita{
+    text-align: right;
+    ;
+ 
+}
+ 
+/*Decoração de Texto*/
+ 
+.underline{
+    text-decoration: underline;
+ 
+}
+ 
+.line-through{
+    text-decoration: line-through;
+ 
+}
+ 
+.remove-underline{
+text-decoration: none;
+color: orangered;
+}
+ 
+.overline{
+text-decoration: overline;
+color: chocolate;
+}
+
+
+/* transformação de texto */
+
+.maiusculas{
+   text-transform:uppercase;
+}
+
+.minusculas{
+text-transform:lowercase;
+}
+
+.primeira-linha-maiscula{
+ text-transform: capitalize;
+
+}
+
+/* Espaçamento entre as letras */
+.spacing{
+ letter-spacing: 10px;
+
+}
+
+/* fontes */
+
+.fonte-serif{
+font-family: serif;
+}
+.fonte-sans-serif{
+font-family: monospace;
+}
+.fonte-monospace{
+font-family: monospace;
+}
+.fonte-cursive{
+font-family: cursive;
+}
+.fonte-fantasy{
+font-family: fantasy;
+}
+
+.outra-fonte{
+    font-family:arial, helvetica, sans-serif;
+}
+
+ /* o link do import vai no topo da pagina  */
+
+ .trazer-fonte-do-google{
+ font-family: 'wallpoet', cursive;
+
+ }
+
+ .sung-jin-woo{
+font-family: 'Lilita One', cursive;
+font-size: 40px;
+
+}
+  
+ /* estilo de fonte */
+
+.normal{
+     font-style: normal;
+ }
+
+.italic{
+    font-style: italic;
+}
+.oblique{
+    font-style: oblique;
+}
+
+/* espessura da fonte */
+
+.lighter, .bold .bolder{
+ font-family: helvetica
+}
+
+.lighter{
+    font-weight: 100;
+}
+.bold{
+    font-weight: 500;
+}
+
+.bolder{
+    font-weight: 900;
+}
